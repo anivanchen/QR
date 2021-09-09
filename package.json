@@ -2,6 +2,7 @@
   "name": "qr",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://anivanchen.github.io/qr",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
