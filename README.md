@@ -1,5 +1,8 @@
 # QR
 
+![](https://img.shields.io/github/license/anivanchen/anivanchen.github.io?color=brightgreen&style=for-the-badge)
+![](https://img.shields.io/github/workflow/status/anivanchen/anivanchen.github.io/Build%20and%20Deploy?style=for-the-badge)
+
 A QR code generator.
 
 Reader and encryption not yet implemented.
