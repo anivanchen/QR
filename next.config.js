@@ -4,7 +4,7 @@ module.exports = {
   reactStrictMode: true,
   exportPathMap: function () { // /Next-React-Components
     return {
-      "/qr": { page: "https://anivanchen.github.io/qr" },
+      "/qr": { page: "/qr" },
     }
   },
   assetPrefix: !debug ? 'https://anivanchen.github.io/qr' : '',
