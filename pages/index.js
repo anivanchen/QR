@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <QRCode value={QRValue} size="256" />
+      <QRCode value={QRValue} size={256} />
       <input type="text" value={QRValue} onChange={e => setQRValue(e.target.value)} placeholder="QR Code Value" />
       <a href="https://github.com/anivanchen/qr/issues"><p>Report A Bug</p></a>
     </div>
