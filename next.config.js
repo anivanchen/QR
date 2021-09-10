@@ -9,4 +9,5 @@ module.exports = {
       "/ap-highlight": { page: "/ap-highlight" },
     }
   },
-assetPrefix: !debug ? 'https://anotherplanet-io.github.io/Next-React-Components/' : '',
+  assetPrefix: !debug ? 'https://anivanchen.github.io/qr' : '',
+}
