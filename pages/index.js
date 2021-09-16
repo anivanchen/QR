@@ -11,6 +11,7 @@ export default function Home() {
       <QRCode value={QRValue} size={256} />
       <input type="text" value={QRValue} onChange={e => setQRValue(e.target.value)} placeholder="QR Code Value" />
       <a href="https://github.com/anivanchen/qr/issues"><p>Report A Bug</p></a>
+      <a href="https://github.com/anivanchen/qr"><p>View on Github</p></a>
     </div>
   )
 }
