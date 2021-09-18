@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import dynamic from 'next/dynamic'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 const QrReader = dynamic(() => import('react-qr-reader'), {
@@ -22,7 +23,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <a href="/" style={{marginBottom: "25px", backgroundColor: "black", color: "white", padding: "5px", borderRadius: "5px"}}>Generator</a>
+      <Link href="/" style={{marginBottom: "25px", backgroundColor: "black", color: "white", padding: "5px", borderRadius: "5px"}}>Generator</Link>
       <QrReader
         delay={100}
         style={{ width: "512px"}}
