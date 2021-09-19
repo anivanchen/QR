@@ -26,7 +26,7 @@ export default function Home() {
       <Link href="/" style={{marginBottom: "25px", backgroundColor: "black", color: "white", padding: "5px", borderRadius: "5px"}}>Generator</Link>
       <QrReader
         delay={100}
-        style={{ width: "512px"}}
+        style={{ width: "256px"}}
         onError={handleError}
         onScan={handleScan}
       />
