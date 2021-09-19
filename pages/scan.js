@@ -9,7 +9,6 @@ const QrReader = dynamic(() => import('react-qr-reader'), {
 
 export default function Home() {
 
-  const [password, setPassword] = useState("")
   const [scanResult, setScanResult] = useState("Output")
 
   const handleError = (error) => {
@@ -31,7 +30,6 @@ export default function Home() {
         onScan={handleScan}
       />
       <h2>{scanResult}</h2>
-      <input type="text" value={password} onChange={e => setPassword(e.target.value)} placeholder="Password" />
       <a href="https://github.com/anivanchen/qr/issues"><p>Report A Bug</p></a>
     </div>
   )
