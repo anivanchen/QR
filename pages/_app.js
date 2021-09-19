@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>QR</title>
-        <meta name="description" content="A QR code generator." />
+        <meta name="description" content="A QR code generator and reader." />
         <link rel="icon" href="https://anivanchen.github.io/favicon.ico" />
       </Head>
       
