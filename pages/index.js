@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <Link href="/scan" style={{marginBottom: "25px", backgroundColor: "black", color: "white", padding: "5px", borderRadius: "5px"}}>Scanner</Link>
+      <p  className={styles.link}><Link href="/scan" className={styles.link}>Scanner</Link></p>
       <QRCode value={QRValue} size={256} />
       <input type="text" value={QRValue} onChange={e => setQRValue(e.target.value)} placeholder="QR Code Value" />
       <a href="https://github.com/anivanchen/qr/issues"><p>Report A Bug</p></a>

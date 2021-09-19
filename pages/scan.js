@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <Link href="/" style={{marginBottom: "25px", backgroundColor: "black", color: "white", padding: "5px", borderRadius: "5px"}}>Generator</Link>
+      <p className={styles.link}><Link href="/">Generator</Link></p>
       <QrReader
         delay={100}
         style={{ width: "256px"}}
