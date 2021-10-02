@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <p className={styles.link}><Link href="/">Generator</Link></p>
+      <p className={styles.link}><Link href="/qr">Generator</Link></p>
       <QrReader
         delay={100}
         style={{ width: "256px"}}
